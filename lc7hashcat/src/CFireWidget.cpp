@@ -81,6 +81,9 @@ CFireWidget::~CFireWidget()
 	if (m_screenbuf != NULL)
 		delete[] m_screenbuf;
 
+	if (m_pCoolBuffer != NULL)
+		delete[] m_pCoolBuffer;
+	m_pCoolBuffer = NULL;
 }
 
 void CFireWidget::slot_refresh(void)
