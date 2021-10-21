@@ -47,8 +47,8 @@
 * Build the 'L0phtCrack Remote Agent' for Windows, by opening the `l0phtcrack\win-agent\win-agent.sln` solution file in VS2017 and building all configurations (use batch build, select all to build every combination of the agent)
   * This will likely fail at the 'signtool.exe' build step because code signing certificates cost money and there is no 'LetsEncrypt' for code signing yet, and you don't have the cert/private key for l0phtcrack.
   
-* Build the 64-bit 'L0phtCrack 7' project by opening `lc7\build_win64\L0phtCrack 7.sln` and compiling it
-* Build the 32-bit 'L0phtCrack 7' project by opening `lc7\build_win32\L0phtCrack 7.sln` and compiling it
+* Build the 64-bit 'L0phtCrack 7' project by opening `l0phtcrack\build_win64\L0phtCrack 7.sln` and compiling it
+* Build the 32-bit 'L0phtCrack 7' project by opening `l0phtcrack\build_win32\L0phtCrack 7.sln` and compiling it
 
 ### Building the installer
 * Build the `RelWithDebInfo` versions of the Windows x86 and x64 builds of L0phtCrack
